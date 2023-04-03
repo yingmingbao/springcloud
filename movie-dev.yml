@@ -22,7 +22,7 @@ spring:
     hystrix:
       enabled: true
   zipkin:
-    base-url: http://127.0.0.1:9411
+    base-url: http://127.0.0.1:9041
     sender:
       type: web              
   sleuth:
