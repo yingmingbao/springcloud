@@ -14,7 +14,7 @@ spring:   # 服务名称，暂时没有用，讲到SpringCloud服务调用的时
     database: mysql # jpa连接的数据库类型
   zipkin:
     base-url: http://127.0.0.1:9411
-      sender:
+    sender:
         type: web              
   sleuth:
     sampler:
